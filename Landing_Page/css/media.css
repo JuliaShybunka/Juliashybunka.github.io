@@ -1,0 +1,220 @@
+@media (max-width: 1600px){
+    .footer__wrapper::after{
+        display: none;
+    }
+}
+
+@media (max-width: 1250px){
+    .about::before{
+        display: none;
+    }
+    .about__content{
+        max-width: none;
+        width: 100%;
+        padding: 129px 50px;
+    }
+}
+
+@media (max-width: 1140px){
+    .features__heading-title{
+        padding-bottom: 50px;
+    }
+    .features__inner{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .features__content{
+        display: block;
+        margin: 0 10px;
+    }
+    .features__box + .features__box{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .description__content{
+        margin-right: 20px;
+    }
+    .about__title, .description__title, .browser__title{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1100px){
+    .description__wrapper::before{
+        display: none;
+    }
+    .description__content {
+        padding-top: 18px;
+        padding-left: 0px;
+    }
+    .description__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .description__content{
+        margin-left: 20px;
+    }
+    .form__middle-more{
+        display: none;
+    }
+    .form__middle{
+        display: block;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .form__middle input[type="text"]{
+        margin: 5px 2px;
+    }
+    .form__middle input[type="submit"]{
+        margin: 5px 2px;
+        padding: 15px 95px;
+    }
+    .form__bottom {
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+    .footer__content{
+        padding: 70px 10px;
+        display: inline-block;
+    }
+    .footer__content{
+        padding: 30px 10px;
+    }
+    
+    
+}
+
+@media (max-width: 900px){
+    .header__title {
+        font-size: 43px;
+        padding-bottom: 40px;
+        max-width: 380px;
+        padding-bottom: 10px;
+    }
+    .header__btn{
+        margin-top: 17px;
+    }
+    .description__content {
+        padding-top: 40px;
+    }
+    .comment__box-position {
+        padding-bottom: 13px;
+    }
+    .comment__box + .comment__box {
+        margin-left: 30px;
+    }
+    .comment__logo{
+        padding: 0 10px 76px 10px;
+    }
+    .comment__top{
+        padding: 100px 10px;
+    }
+}
+
+@media (max-width: 880px){
+    .browser__image img{
+        display: none;
+    }
+    .browser__content{
+        padding: 80px 10px;
+    }
+}
+
+@media (max-width: 680px){
+    .description__inner img {
+       display: none;
+    }
+    .description__content {
+        padding-top: 0px;
+    }
+    .comment__top{
+        display: block;
+        padding: 70px 10px;
+    }
+    .comment__logo{
+        display: block;
+    }
+    .comment__logo-item{
+        display: inline-block;
+        padding: 10px;
+    }
+    .comment__box + .comment__box{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .form__top-title{
+        font-size: 27px;
+    }
+    .form__bottom {
+        padding-bottom: 30px;
+    }
+    .form__top{
+        font-stretch: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .header__title{
+        line-height: 55px;
+        max-width: 350px;
+    }
+    .header__content{
+        padding-top: 200px;
+    }
+    .about__content{
+        padding: 80px 50px;
+    }
+    .features__inner {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .features__heading-title {
+        padding-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .header__title{
+        max-width: 260px;
+        font-size: 33px;
+    }
+    .about__title,
+    .browser__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about__text p + p {
+        padding-top: 24px;
+    }
+    .about__content {
+        padding: 35px 35px;
+    }
+    .description__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .form__top{
+        padding-top: 50px;
+    }
+    .form__top-title{
+        font-size: 20px;
+    }
+    .form__top-suptitle{
+        font-size: 13px;
+    }
+    .form__bottom, .form__bottom a {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 350px){
+    .form__middle{
+        padding: 10px;
+    }
+    .form__top-title {
+        font-size: 17px;
+    }
+}
