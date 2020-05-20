@@ -429,7 +429,7 @@ body {
   margin-left: 7px;
 }
 .slider::before {
-  border-width: 0 0 5px 5px;
+  border-width: 2px 0 5px 6px;
   content: "";
   position: absolute;
   display: block;
@@ -441,12 +441,12 @@ body {
 .slider::after {
   content: "";
   position: absolute;
-  border-width: 5px 3.5px 0 3.5px;
+  border-width: 5px 5px 0 3.5px;
   display: block;
   border-style: solid;
   border-color: #004261 transparent transparent transparent;
-  bottom: 18.5px;
-  right: 246px;
+  bottom: 18.3px;
+  right: 247px;
 }
 .slider .slick-dots li {
   margin: 0;
@@ -506,11 +506,8 @@ body {
 .slider .slider__info {
   width: 480px;
   height: 97px;
-  background-image: -webkit-linear-gradient(0deg, #0098de 37.5%, #00a0ea 37.5%, #00a0ea 50%, #0098de 50%, #0098de 87.5%, #00a0ea 87.5%, #00a0ea 100%);
-  background-size: 8px 8px;
+  background: no-repeat url("../images/block.png");
   height: 92px;
-  -webkit-clip-path: polygon(0 0, 89% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 0, 89% 0%, 100% 100%, 0% 100%);
   position: absolute;
   bottom: 0;
   left: -6px;
@@ -602,18 +599,26 @@ body {
 .shop .prev {
   bottom: -47px;
   left: 250px;
-  background: no-repeat center url("../images/shop-arrow-prev.png"), -webkit-linear-gradient(95deg, #d9d9d7 0%, #fbfbfb 100%);
+  background: no-repeat center url("../images/shop-arrow-prev.png"), -webkit-gradient(linear, left bottom, left top, from(#d9d9d7), to(#fbfbfb));
+  background: no-repeat center url("../images/shop-arrow-prev.png"), -o-linear-gradient(bottom, #d9d9d7 0%, #fbfbfb 100%);
+  background: no-repeat center url("../images/shop-arrow-prev.png"), linear-gradient(0deg, #d9d9d7 0%, #fbfbfb 100%);
 }
 .shop .prev:active {
-  background: no-repeat center url("../images/shop-arrow-prev-hover.png"), -webkit-linear-gradient(95deg, #9bd7f1 0%, #006a9b 100%);
+  background: no-repeat center url("../images/shop-arrow-prev-hover.png"), -webkit-gradient(linear, left bottom, left top, from(#9bd7f1), to(#006a9b));
+  background: no-repeat center url("../images/shop-arrow-prev-hover.png"), -o-linear-gradient(bottom, #9bd7f1 0%, #006a9b 100%);
+  background: no-repeat center url("../images/shop-arrow-prev-hover.png"), linear-gradient(0deg, #9bd7f1 0%, #006a9b 100%);
 }
 .shop .next {
   bottom: -47px;
   right: 246px;
-  background: no-repeat center url("../images/shop-arrow-next.png"), -webkit-linear-gradient(95deg, #d9d9d7 0%, #fbfbfb 100%);
+  background: no-repeat center url("../images/shop-arrow-next.png"), -webkit-gradient(linear, left bottom, left top, from(#d9d9d7), to(#fbfbfb));
+  background: no-repeat center url("../images/shop-arrow-next.png"), -o-linear-gradient(bottom, #d9d9d7 0%, #fbfbfb 100%);
+  background: no-repeat center url("../images/shop-arrow-next.png"), linear-gradient(0deg, #d9d9d7 0%, #fbfbfb 100%);
 }
 .shop .next:active {
-  background: no-repeat center url("../images/shop-arrow-next-hover.png"), -webkit-linear-gradient(95deg, #9bd7f1 0%, #006a9b 100%);
+  background: no-repeat center url("../images/shop-arrow-next-hover.png"), -webkit-gradient(linear, left bottom, left top, from(#9bd7f1), to(#006a9b));
+  background: no-repeat center url("../images/shop-arrow-next-hover.png"), -o-linear-gradient(bottom, #9bd7f1 0%, #006a9b 100%);
+  background: no-repeat center url("../images/shop-arrow-next-hover.png"), linear-gradient(0deg, #9bd7f1 0%, #006a9b 100%);
 }
 .shop .slick-dotted.slick-slider {
   position: relative;
@@ -875,13 +880,17 @@ nav {
   content: "";
   height: 6px;
   top: -11px;
-  background-image: -webkit-linear-gradient(0deg, #fefefe 37.5%, #fbfbfb 37.5%, #fbfbfb 50%, #fefefe 50%, #fefefe 87.5%, #fbfbfb 87.5%, #fbfbfb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(37.5%, #fefefe), color-stop(37.5%, #fbfbfb), color-stop(50%, #fbfbfb), color-stop(50%, #fefefe), color-stop(87.5%, #fefefe), color-stop(87.5%, #fbfbfb), to(#fbfbfb));
+  background-image: -o-linear-gradient(bottom, #fefefe 37.5%, #fbfbfb 37.5%, #fbfbfb 50%, #fefefe 50%, #fefefe 87.5%, #fbfbfb 87.5%, #fbfbfb 100%);
+  background-image: linear-gradient(0deg, #fefefe 37.5%, #fbfbfb 37.5%, #fbfbfb 50%, #fefefe 50%, #fefefe 87.5%, #fbfbfb 87.5%, #fbfbfb 100%);
   background-size: 8px 8px;
 }
 .footer__inner {
   -webkit-filter: drop-shadow(0 0 2px rgba(0, 1, 1, 0.08));
           filter: drop-shadow(0 0 2px rgba(0, 1, 1, 0.08));
-  background-image: -webkit-linear-gradient(0deg, #eceae5 37.5%, #f3f2f0 37.5%, #f3f2f0 50%, #eceae5 50%, #eceae5 87.5%, #f3f2f0 87.5%, #f3f2f0 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(37.5%, #eceae5), color-stop(37.5%, #f3f2f0), color-stop(50%, #f3f2f0), color-stop(50%, #eceae5), color-stop(87.5%, #eceae5), color-stop(87.5%, #f3f2f0), to(#f3f2f0));
+  background-image: -o-linear-gradient(bottom, #eceae5 37.5%, #f3f2f0 37.5%, #f3f2f0 50%, #eceae5 50%, #eceae5 87.5%, #f3f2f0 87.5%, #f3f2f0 100%);
+  background-image: linear-gradient(0deg, #eceae5 37.5%, #f3f2f0 37.5%, #f3f2f0 50%, #eceae5 50%, #eceae5 87.5%, #f3f2f0 87.5%, #f3f2f0 100%);
   background-size: 8px 8px;
   display: -webkit-box;
   display: -ms-flexbox;
