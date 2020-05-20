@@ -35,12 +35,11 @@ body {
   background-size: 8px 8px;
 }
 
+
 .container {
   max-width: 980px;
   margin: 0 auto;
 }
-
-
 
 .default__btn-grey {
   background: linear-gradient(0deg, #d9d9d7 0%, #fbfbfb 100%);
@@ -349,7 +348,7 @@ body {
   padding-left: 60px;
   outline: none;
   position: relative;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 .nav__btn button::before {
@@ -830,7 +829,6 @@ nav {
   &__title {
     font-size: 22px;
     font-family: "Opium";
-    letter-spacing: 1.5px;
   }
 
   &__text {
@@ -838,7 +836,7 @@ nav {
     font-size: 13px;
     line-height: 20px;
 
-    &-bold {
+    &-bold p{
       font-size: 16px;
       font-weight: bold;
       font-style: italic;

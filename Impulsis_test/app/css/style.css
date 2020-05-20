@@ -341,7 +341,7 @@ body {
   padding-left: 60px;
   outline: none;
   position: relative;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 .nav__btn button::before {
@@ -775,14 +775,13 @@ nav {
 .about__title {
   font-size: 22px;
   font-family: "Opium";
-  letter-spacing: 1.5px;
 }
 .about__text {
   padding-top: 15px;
   font-size: 13px;
   line-height: 20px;
 }
-.about__text-bold {
+.about__text-bold p {
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
